@@ -785,145 +785,6 @@ module.exports = ExecutionEnvironment;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _svg = __webpack_require__(98);
-
-Object.defineProperty(exports, 'Svg', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_svg).default;
-  }
-});
-
-var _title = __webpack_require__(225);
-
-Object.defineProperty(exports, 'Title', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_title).default;
-  }
-});
-
-var _chartContainer = __webpack_require__(224);
-
-Object.defineProperty(exports, 'Chart', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_chartContainer).default;
-  }
-});
-
-var _axis = __webpack_require__(41);
-
-Object.defineProperty(exports, 'Axis', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_axis).default;
-  }
-});
-
-var _xaxis = __webpack_require__(222);
-
-Object.defineProperty(exports, 'Xaxis', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_xaxis).default;
-  }
-});
-
-var _yaxis = __webpack_require__(223);
-
-Object.defineProperty(exports, 'Yaxis', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_yaxis).default;
-  }
-});
-
-var _label = __webpack_require__(65);
-
-Object.defineProperty(exports, 'Label', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_label).default;
-  }
-});
-
-var _legend = __webpack_require__(99);
-
-Object.defineProperty(exports, 'Legend', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_legend).default;
-  }
-});
-
-var _grid = __webpack_require__(66);
-
-Object.defineProperty(exports, 'Grid', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_grid).default;
-  }
-});
-
-var _xgrid = __webpack_require__(226);
-
-Object.defineProperty(exports, 'Xgrid', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_xgrid).default;
-  }
-});
-
-var _ygrid = __webpack_require__(227);
-
-Object.defineProperty(exports, 'Ygrid', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_ygrid).default;
-  }
-});
-
-var _scale = __webpack_require__(67);
-
-Object.defineProperty(exports, 'scale', {
-  enumerable: true,
-  get: function get() {
-    return _scale.scale;
-  }
-});
-
-var _xDomain = __webpack_require__(228);
-
-Object.defineProperty(exports, 'xDomainCount', {
-  enumerable: true,
-  get: function get() {
-    return _xDomain.xDomain;
-  }
-});
-
-var _yDomain = __webpack_require__(229);
-
-Object.defineProperty(exports, 'yDomainCount', {
-  enumerable: true,
-  get: function get() {
-    return _yDomain.yDomain;
-  }
-});
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-/***/ }),
-/* 9 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
 /* WEBPACK VAR INJECTION */(function(process) {/**
  * Copyright 2016-present, Facebook, Inc.
  * All rights reserved.
@@ -1258,6 +1119,145 @@ var ReactComponentTreeHook = {
 
 module.exports = ReactComponentTreeHook;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
+
+/***/ }),
+/* 9 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _svg = __webpack_require__(98);
+
+Object.defineProperty(exports, 'Svg', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_svg).default;
+  }
+});
+
+var _title = __webpack_require__(225);
+
+Object.defineProperty(exports, 'Title', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_title).default;
+  }
+});
+
+var _chartContainer = __webpack_require__(224);
+
+Object.defineProperty(exports, 'Chart', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_chartContainer).default;
+  }
+});
+
+var _axis = __webpack_require__(41);
+
+Object.defineProperty(exports, 'Axis', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_axis).default;
+  }
+});
+
+var _xaxis = __webpack_require__(222);
+
+Object.defineProperty(exports, 'Xaxis', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_xaxis).default;
+  }
+});
+
+var _yaxis = __webpack_require__(223);
+
+Object.defineProperty(exports, 'Yaxis', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_yaxis).default;
+  }
+});
+
+var _label = __webpack_require__(65);
+
+Object.defineProperty(exports, 'Label', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_label).default;
+  }
+});
+
+var _legend = __webpack_require__(99);
+
+Object.defineProperty(exports, 'Legend', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_legend).default;
+  }
+});
+
+var _grid = __webpack_require__(66);
+
+Object.defineProperty(exports, 'Grid', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_grid).default;
+  }
+});
+
+var _xgrid = __webpack_require__(226);
+
+Object.defineProperty(exports, 'Xgrid', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_xgrid).default;
+  }
+});
+
+var _ygrid = __webpack_require__(227);
+
+Object.defineProperty(exports, 'Ygrid', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_ygrid).default;
+  }
+});
+
+var _scale = __webpack_require__(67);
+
+Object.defineProperty(exports, 'scale', {
+  enumerable: true,
+  get: function get() {
+    return _scale.scale;
+  }
+});
+
+var _xDomain = __webpack_require__(228);
+
+Object.defineProperty(exports, 'xDomainCount', {
+  enumerable: true,
+  get: function get() {
+    return _xDomain.xDomain;
+  }
+});
+
+var _yDomain = __webpack_require__(229);
+
+Object.defineProperty(exports, 'yDomainCount', {
+  enumerable: true,
+  get: function get() {
+    return _yDomain.yDomain;
+  }
+});
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 /***/ }),
 /* 10 */
@@ -23920,7 +23920,7 @@ module.exports = REACT_ELEMENT_TYPE;
 
 
 var ReactCurrentOwner = __webpack_require__(15);
-var ReactComponentTreeHook = __webpack_require__(9);
+var ReactComponentTreeHook = __webpack_require__(8);
 var ReactElement = __webpack_require__(21);
 
 var checkReactTypeSpec = __webpack_require__(198);
@@ -28079,7 +28079,7 @@ if (typeof process !== 'undefined' && process.env && process.env.NODE_ENV === 't
   // https://github.com/facebook/react/issues/7240
   // Remove the inline requires when we don't need them anymore:
   // https://github.com/facebook/react/pull/7178
-  ReactComponentTreeHook = __webpack_require__(9);
+  ReactComponentTreeHook = __webpack_require__(8);
 }
 
 function instantiateChild(childInstances, child, name, selfDebugID) {
@@ -28087,7 +28087,7 @@ function instantiateChild(childInstances, child, name, selfDebugID) {
   var keyUnique = childInstances[name] === undefined;
   if (process.env.NODE_ENV !== 'production') {
     if (!ReactComponentTreeHook) {
-      ReactComponentTreeHook = __webpack_require__(9);
+      ReactComponentTreeHook = __webpack_require__(8);
     }
     if (!keyUnique) {
       process.env.NODE_ENV !== 'production' ? warning(false, 'flattenChildren(...): Encountered two children with the same key, ' + '`%s`. Child keys must be unique; when two children share a key, only ' + 'the first child will be used.%s', KeyEscapeUtils.unescape(name), ReactComponentTreeHook.getStackAddendumByID(selfDebugID)) : void 0;
@@ -30742,7 +30742,7 @@ module.exports = ReactDOMInput;
 
 
 var DOMProperty = __webpack_require__(18);
-var ReactComponentTreeHook = __webpack_require__(9);
+var ReactComponentTreeHook = __webpack_require__(8);
 
 var warning = __webpack_require__(2);
 
@@ -30840,7 +30840,7 @@ module.exports = ReactDOMInvalidARIAHook;
 
 
 
-var ReactComponentTreeHook = __webpack_require__(9);
+var ReactComponentTreeHook = __webpack_require__(8);
 
 var warning = __webpack_require__(2);
 
@@ -31715,7 +31715,7 @@ module.exports = {
 
 var DOMProperty = __webpack_require__(18);
 var EventPluginRegistry = __webpack_require__(34);
-var ReactComponentTreeHook = __webpack_require__(9);
+var ReactComponentTreeHook = __webpack_require__(8);
 
 var warning = __webpack_require__(2);
 
@@ -31834,7 +31834,7 @@ module.exports = ReactDOMUnknownPropertyHook;
 
 var ReactInvalidSetStateWarningHook = __webpack_require__(155);
 var ReactHostOperationHistoryHook = __webpack_require__(153);
-var ReactComponentTreeHook = __webpack_require__(9);
+var ReactComponentTreeHook = __webpack_require__(8);
 var ExecutionEnvironment = __webpack_require__(7);
 
 var performanceNow = __webpack_require__(118);
@@ -35182,7 +35182,7 @@ if (typeof process !== 'undefined' && process.env && process.env.NODE_ENV === 't
   // https://github.com/facebook/react/issues/7240
   // Remove the inline requires when we don't need them anymore:
   // https://github.com/facebook/react/pull/7178
-  ReactComponentTreeHook = __webpack_require__(9);
+  ReactComponentTreeHook = __webpack_require__(8);
 }
 
 var loggedTypeFailures = {};
@@ -35224,7 +35224,7 @@ function checkReactTypeSpec(typeSpecs, values, location, componentName, element,
 
         if (process.env.NODE_ENV !== 'production') {
           if (!ReactComponentTreeHook) {
-            ReactComponentTreeHook = __webpack_require__(9);
+            ReactComponentTreeHook = __webpack_require__(8);
           }
           if (debugID !== null) {
             componentStackInfo = ReactComponentTreeHook.getStackAddendumByID(debugID);
@@ -35423,7 +35423,7 @@ if (typeof process !== 'undefined' && process.env && process.env.NODE_ENV === 't
   // https://github.com/facebook/react/issues/7240
   // Remove the inline requires when we don't need them anymore:
   // https://github.com/facebook/react/pull/7178
-  ReactComponentTreeHook = __webpack_require__(9);
+  ReactComponentTreeHook = __webpack_require__(8);
 }
 
 /**
@@ -35439,7 +35439,7 @@ function flattenSingleChildIntoContext(traverseContext, child, name, selfDebugID
     var keyUnique = result[name] === undefined;
     if (process.env.NODE_ENV !== 'production') {
       if (!ReactComponentTreeHook) {
-        ReactComponentTreeHook = __webpack_require__(9);
+        ReactComponentTreeHook = __webpack_require__(8);
       }
       if (!keyUnique) {
         process.env.NODE_ENV !== 'production' ? warning(false, 'flattenChildren(...): Encountered two children with the same key, ' + '`%s`. Child keys must be unique; when two children share a key, only ' + 'the first child will be used.%s', KeyEscapeUtils.unescape(name), ReactComponentTreeHook.getStackAddendumByID(selfDebugID)) : void 0;
@@ -37707,7 +37707,7 @@ if (typeof process !== 'undefined' && process.env && process.env.NODE_ENV === 't
   // https://github.com/facebook/react/issues/7240
   // Remove the inline requires when we don't need them anymore:
   // https://github.com/facebook/react/pull/7178
-  ReactComponentTreeHook = __webpack_require__(9);
+  ReactComponentTreeHook = __webpack_require__(8);
 }
 
 var loggedTypeFailures = {};
@@ -37749,7 +37749,7 @@ function checkReactTypeSpec(typeSpecs, values, location, componentName, element,
 
         if (process.env.NODE_ENV !== 'production') {
           if (!ReactComponentTreeHook) {
-            ReactComponentTreeHook = __webpack_require__(9);
+            ReactComponentTreeHook = __webpack_require__(8);
           }
           if (debugID !== null) {
             componentStackInfo = ReactComponentTreeHook.getStackAddendumByID(debugID);
@@ -42719,7 +42719,7 @@ var _react = __webpack_require__(3);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactD3Core = __webpack_require__(8);
+var _reactD3Core = __webpack_require__(9);
 
 var _reactD3Shape = __webpack_require__(12);
 
@@ -42829,7 +42829,7 @@ var _react = __webpack_require__(3);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactD3Core = __webpack_require__(8);
+var _reactD3Core = __webpack_require__(9);
 
 var _reactD3Shape = __webpack_require__(12);
 
@@ -42938,7 +42938,7 @@ var _react = __webpack_require__(3);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactD3Core = __webpack_require__(8);
+var _reactD3Core = __webpack_require__(9);
 
 var _reactD3Shape = __webpack_require__(12);
 
@@ -43049,7 +43049,7 @@ var _react = __webpack_require__(3);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactD3Core = __webpack_require__(8);
+var _reactD3Core = __webpack_require__(9);
 
 var _reactD3Shape = __webpack_require__(12);
 
@@ -43160,7 +43160,7 @@ var _react = __webpack_require__(3);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactD3Core = __webpack_require__(8);
+var _reactD3Core = __webpack_require__(9);
 
 var _reactD3Shape = __webpack_require__(12);
 
@@ -43270,7 +43270,7 @@ var _react = __webpack_require__(3);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactD3Core = __webpack_require__(8);
+var _reactD3Core = __webpack_require__(9);
 
 var _reactD3Shape = __webpack_require__(12);
 
@@ -43380,7 +43380,7 @@ var _react = __webpack_require__(3);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactD3Core = __webpack_require__(8);
+var _reactD3Core = __webpack_require__(9);
 
 var _reactD3Shape = __webpack_require__(12);
 
@@ -43492,7 +43492,7 @@ var _react = __webpack_require__(3);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactD3Core = __webpack_require__(8);
+var _reactD3Core = __webpack_require__(9);
 
 var _reactD3Shape = __webpack_require__(12);
 
@@ -43603,7 +43603,7 @@ var _react = __webpack_require__(3);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactD3Core = __webpack_require__(8);
+var _reactD3Core = __webpack_require__(9);
 
 var _reactD3Shape = __webpack_require__(12);
 
@@ -43713,7 +43713,7 @@ var _react = __webpack_require__(3);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactD3Core = __webpack_require__(8);
+var _reactD3Core = __webpack_require__(9);
 
 var _reactD3Shape = __webpack_require__(12);
 
@@ -43815,7 +43815,7 @@ var _react = __webpack_require__(3);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactD3Core = __webpack_require__(8);
+var _reactD3Core = __webpack_require__(9);
 
 var _reactD3Shape = __webpack_require__(12);
 
@@ -44725,7 +44725,7 @@ var _react = __webpack_require__(3);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactD3Core = __webpack_require__(8);
+var _reactD3Core = __webpack_require__(9);
 
 var _commonProps = __webpack_require__(27);
 
@@ -44898,7 +44898,7 @@ var _react = __webpack_require__(3);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactD3Core = __webpack_require__(8);
+var _reactD3Core = __webpack_require__(9);
 
 var _commonProps = __webpack_require__(27);
 
@@ -46751,8 +46751,6 @@ var _reactDom = __webpack_require__(103);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _reactD3Core = __webpack_require__(8);
-
 var _reactD3Basic = __webpack_require__(104);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
@@ -46782,30 +46780,29 @@ x = function x(d) {
 };
 
 //渲染
-// ReactDOM.render(
-//     <LineChart margins= {margins} title={title} data={chartData} width={width} height={height} chartSeries={chartSeries} x={x}/>
-//     // <Chart title={title} width={width} height={height} margins= {margins}>
-//     // </Chart>,
-//     ,document.getElementById('line-user')
-//   )
-_reactDom2.default.render(_react2.default.createElement(
-  _reactD3Core.Chart,
-  {
-    title: title,
-    width: width,
-    height: height,
-    margins: margins
-  },
-  _react2.default.createElement(_reactD3Basic.LineChart, {
-    margins: margins,
-    title: title,
-    data: chartData,
-    width: width,
-    height: height,
-    chartSeries: chartSeries,
-    x: x
-  })
-), document.getElementById('line-user'));
+_reactDom2.default.render(_react2.default.createElement(_reactD3Basic.LineChart, { margins: margins, title: title, data: chartData, width: width, height: height, chartSeries: chartSeries, x: x })
+// <Chart title={title} width={width} height={height} margins= {margins}>
+// </Chart>,
+, document.getElementById('line-user'));
+//  ReactDOM.render(
+//   <Chart
+//     title={title}
+//     width={width}
+//     height={height}
+//     margins= {margins}
+//     >
+//     <LineChart
+//       margins= {margins}
+//       title={title}
+//       data={chartData}
+//       width={width}
+//       height={height}
+//       chartSeries={chartSeries}
+//       x={x}
+//     />
+//   </Chart>
+// , document.getElementById('line-user')
+// )
 
 /***/ })
 /******/ ]);

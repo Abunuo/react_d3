@@ -1,7 +1,7 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Chart } from 'react-d3-core';
+import { Chart } from 'react-d3-basic';
 import { LineChart } from 'react-d3-basic';
 
 
@@ -79,28 +79,28 @@ var width = 700,
     };
 
 //渲染
-// ReactDOM.render(
-//     <LineChart margins= {margins} title={title} data={chartData} width={width} height={height} chartSeries={chartSeries} x={x}/>
-//     // <Chart title={title} width={width} height={height} margins= {margins}>
-//     // </Chart>,
-//     ,document.getElementById('line-user')
-//   )
-   ReactDOM.render(
-    <Chart
-      title={title}
-      width={width}
-      height={height}
-      margins= {margins}
-      >
-      <LineChart
-        margins= {margins}
-        title={title}
-        data={chartData}
-        width={width}
-        height={height}
-        chartSeries={chartSeries}
-        x={x}
-      />
-    </Chart>
-  , document.getElementById('line-user')
+ReactDOM.render(
+    <LineChart margins= {margins} title={title} data={chartData} width={width} height={height} chartSeries={chartSeries} x={x}/>
+    // <Chart title={title} width={width} height={height} margins= {margins}>
+    // </Chart>,
+    ,document.getElementById('line-user')
   )
+  //  ReactDOM.render(
+  //   <Chart
+  //     title={title}
+  //     width={width}
+  //     height={height}
+  //     margins= {margins}
+  //     >
+  //     <LineChart
+  //       margins= {margins}
+  //       title={title}
+  //       data={chartData}
+  //       width={width}
+  //       height={height}
+  //       chartSeries={chartSeries}
+  //       x={x}
+  //     />
+  //   </Chart>
+  // , document.getElementById('line-user')
+  // )
