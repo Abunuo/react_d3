@@ -7,6 +7,8 @@ module.exports = {
   name: 'chartComponent',
   entry: {
     line: './line.jsx',
+    bar: './barChart.jsx',
+    pie: './pieChart.jsx'
   },
   output: {
     path: js_dist,
@@ -20,6 +22,7 @@ module.exports = {
       }
     ],
   },
+  watch: true,
   resolve: {
     extensions: ['.webpack.js', '.web.js', '.js', '.jsx']
   }
